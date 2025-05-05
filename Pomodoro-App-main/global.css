@@ -1,0 +1,44 @@
+/* COMP 3450: Joel Canonico, Hamza Ahmad, Fernando Ferrufino */
+
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: #c85b55;
+}
+html{
+  background-color: #c85b55;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-17xl: 2.25rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-77xl: 6rem;
+  --font-size-xl: 1.25rem;
+  --font-size-mini: 0.94rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-silver: #c5c5c5;
+  --color-lightgray: #cbcbcb;
+  --color-indianred-100: #c96c67;
+  --color-indianred-200: #c85b55;
+  --color-indianred-300: #a95b57;
+  --color-lightcoral: #ed7c77;
+  --color-gray: #777;
+  --color-gainsboro-100: #e3e3e3;
+  --color-gainsboro-200: #d9d9d9;
+  --color-dimgray: #6a6a6a;
+  --color-darkslategray: #3f3146;
+
+  /* Paddings */
+  --padding-448xl-5: 29.22rem;
+  --padding-485xl: 31.5rem;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}

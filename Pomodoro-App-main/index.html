@@ -1,0 +1,104 @@
+<!-- COMP 3450: Joel Canonico, Hamza Ahmad, Fernando Ferrufino -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="computer-screen">
+      <div class="main-banner1">
+        
+        <div class="music-player1">
+          <img
+            class="musical-note-logo-icon1"
+            alt=""
+            src="./public/musicalnote-logo.svg"
+          />
+
+          <div class="player1">
+           
+            <img class="music-volume" id="volume" alt="" src="./public/volume.svg" />
+            <input type="range" class="volume-slider" min="0" max="100" value="100" />
+            
+            <div class="div2">0</div>
+            <div class="div3">0</div>
+            <div class="player-child-button"></div>
+            <div class="player-child"></div>
+
+            <img class="music-player-item" id="play" alt="" src="./public/play.svg" />
+            <img class="music-player-item" id="pause" alt="" src="./public/pause.svg" />
+            <img class="left-seek-icon" alt="" src="./public/left-seek.svg" />
+            <img class="right-seek-icon" alt="" src="./public/right-seek.svg" />
+
+            
+
+            
+            
+ 
+            <div class="slider-container">
+              <input type="range" class="slider1 slider-container" value="0" />
+            
+            </div>
+
+
+                <!-- Volume Control -->
+<!-- Inside your HTML, after the slider for the track progress, add a volume slider -->
+
+          </div>
+          <div class="music-player-child"></div>
+          <b class="jazz1">Music</b>
+          
+
+        </div>
+
+      <div class="frame9">
+        
+      </div>
+      <div class="timer-section">
+        <div class="timer-section-child" id="selB"></div>
+        <a class="pomodoro3" id="pom">Pomodoro</a>
+        <a class="long-break3" id="LB">Long Break</a>
+        <a class="short-break3" id="SB">Short Break</a>
+        <b class="b" id="number">25:00</b>
+        <button class="rectangle-button" id="Start"></button>
+        <b class="start" id="ST">START</b>
+      </div>
+      <div class="frame4">
+        <div class="task-section">
+            <h1>Your Tasks</h1>
+            <input type="text" id="new-task" placeholder="Add a task">
+            <img class="add-task-icon" alt="" src="./public/add-task-icon.svg" id="add-task-button" />
+            <div class="task-container">
+              <div class="task-list">
+                  <ul id="task-list">
+                      <!-- Existing task items will be appended here -->
+                  </ul>
+              </div>   
+              <p><div id="task-count-header">Task Count: <span id="task-count">0</span></p></div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="frame-icon1"
+        alt=""
+        src="./public/pomologoremovebgpreview-1@2x.png"
+      />
+    </div>
+  </div>
+  <script src="main.js"></script> <!-- Move the script tag to the end of the body -->
+  </body>
+</html>

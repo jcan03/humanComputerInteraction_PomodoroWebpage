@@ -1,0 +1,694 @@
+/* COMP 3450: Joel Canonico, Hamza Ahmad, Fernando Ferrufino */
+
+.musical-note-logo-icon {
+  position: absolute;
+  top: .06rem;
+  left: 0;
+  width: 3.44rem;
+  height: 3.44rem;
+  overflow: hidden
+}
+
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 8.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  width: 13.63rem;
+  height: 3.44rem
+}
+
+.frame-item,
+.jazz {
+  position: absolute;
+  top: .38rem;
+  left: 11.06rem
+}
+
+.frame-item {
+  top: 1.47rem;
+  left: 19.45rem;
+  width: .98rem;
+  height: .84rem
+}
+
+.frame {
+  position: undefined;
+  width: 22.13rem;
+  height: 3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-left: 2.88rem
+}
+
+.frame-icon {
+  position: absolute;
+  top: 0;
+  left: 2.49rem;
+  width: 21.93rem;
+  height: 6.49rem;
+  overflow: hidden
+}
+
+.frame-inner,
+.rectangle-div {
+  position: absolute;
+  top: .39rem;
+  left: .06rem;
+  background-color: var(--color-gainsboro-200);
+  width: 26.75rem;
+  height: .49rem
+}
+
+.rectangle-div {
+  top: .38rem;
+  background-color: var(--color-darkslategray);
+  width: .06rem;
+  height: .5rem
+}
+
+.frame1,
+.slider {
+  position: absolute;
+  left: 0
+}
+
+.slider {
+  height: 100%;
+  width: 4.85%;
+  top: 0;
+  right: 95.15%;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: var(--color-dimgray)
+}
+
+.frame1 {
+  top: 8.69rem;
+  width: 26.81rem;
+  height: 1.3rem;
+  overflow: hidden
+}
+
+.div,
+.div1 {
+  position: relative;
+  display: inline-block;
+  width: 2.51rem;
+  height: 1.86rem;
+  flex-shrink: 0
+}
+
+.div1 {
+  width: 2.59rem
+}
+
+.frame2 {
+  position: absolute;
+  top: 10.29rem;
+  left: .06rem;
+  width: 26.75rem;
+  height: 1.86rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 21.63rem
+}
+
+.player {
+  position: relative;
+  width: 26.81rem;
+  height: 12.16rem;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-poppins)
+}
+
+.main-banner,
+.music-player {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+
+.music-player {
+  width: 26.81rem;
+  height: 20.09rem;
+  justify-content: flex-start;
+  gap: 4.44rem
+}
+
+.main-banner {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background-color: var(--color-indianred-200);
+  width: 90rem;
+  height: 91.38rem;
+  justify-content: flex-end;
+  padding: 29.22rem var(--padding-485xl);
+  box-sizing: border-box;
+  color: var(--color-indianred-200)
+}
+
+.frame3 {
+  display: flex;
+  flex-direction: column
+}
+
+.frame3 {
+  position: absolute;
+  top: 1.56rem;
+  left: 12.75rem;
+  width: 64.5rem;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center
+}
+
+.timer-section-child {
+  position: absolute;
+  top: 1.38rem;
+  left: 6.81rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-indianred-100);
+  width: 10.13rem;
+  height: 2.94rem
+}
+
+.b,
+.long-break,
+.pomodoro,
+.short-break {
+  position: absolute;
+  top: 2.06rem;
+  left: 8.75rem
+}
+
+.b,
+.long-break,
+.short-break {
+  left: 37.19rem
+}
+
+.b,
+.short-break {
+  left: 22.5rem;
+}
+
+.b {
+  top: 7.88rem;
+  left:calc(50% - 1.3em);
+  font-size: var(--font-size-77xl);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.timer-section-item {
+  position: absolute;
+  top: 16.69rem;
+  left: 15.06rem;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+  width: 22.13rem;
+  height: 5.56rem
+}
+
+.start {
+  position: absolute;
+  top: 17.94rem;
+  left: 21.94rem;
+  font-size: var(--font-size-21xl);
+  color: var(--color-indianred-200)
+}
+
+.timer-section {
+  position: absolute;
+  top: 12.19rem;
+  left: 19.31rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightcoral);
+  width: 51.38rem;
+  height: 25.13rem;
+  font-size: var(--font-size-xl)
+}
+
+.task-section-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-indianred-200);
+  border-bottom: 3px solid var(--color-white);
+  box-sizing: border-box;
+  width: 64.44rem;
+  height: 6.56rem
+}
+
+.task-section-item,
+.tasks {
+  position: absolute;
+  top: 1.94rem;
+  left: .06rem
+}
+
+.task-section-item {
+  top: 9rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-indianred-300);
+  border: 3px dashed var(--color-lightgray);
+  box-sizing: border-box;
+  width: 64.38rem;
+  height: 6.75rem
+}
+
+.add-task {
+  position: absolute;
+  top: 11rem;
+  left: 29.06rem;
+  color: var(--color-silver)
+}
+
+.add-task-icon {
+  position: absolute;
+  top: 36%;
+  left: 20.5%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.task-section {
+  position: relative;
+  left: 38.5%;
+  width: 64.44rem;
+  height: auto;
+}
+
+#new-task {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  overflow-y: auto;
+}
+
+#task-list {
+  font-size: 20px;
+  list-style-type: decimal;
+}
+
+#task-list li {
+  font-size: 35px;
+}
+
+#task-count {
+  font-size: 35px;
+}
+
+#task-count-header {
+  font-size: 35px;
+}
+
+.delete-icon {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.frame4 {
+  position: absolute;
+  top: 65.56rem;
+  left: 12.38rem;
+  width: 65.25rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: auto;
+  
+}
+
+.musical-note-logo-icon1 {
+  position: absolute;
+  top: .06rem;
+  left: 2.88rem;
+  width: 3.44rem;
+  height: 3.44rem;
+  overflow: hidden
+}
+
+.div2,
+.div3 {
+  position: absolute;
+  top: 10.29rem;
+  left: 25rem;
+  display: inline-block;
+  width: 2.59rem;
+  height: 1.86rem
+}
+
+.div3 {
+  left: .06rem;
+  width: 2.51rem
+}
+
+.player-child {
+  position: absolute;
+  top: 0;
+  left: 10.19rem;
+  border-radius: 50%;
+  background-color: var(--color-dimgray);
+  width: 6.49rem;
+  height: 6.49rem
+}
+
+.player-child-button {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 10.19rem;
+  border-radius: 50%;
+  width: 6.49rem;
+  height: 6.49rem
+  
+}
+
+.player-inner,
+.player-item {
+  position: absolute;
+  top: 2.03rem;
+  left: 13.93rem;
+  background-color: var(--color-gainsboro-200);
+  width: .65rem;
+  height: 2.43rem
+}
+
+.player-inner {
+  left: 12.3rem
+}
+
+.left-seek-icon,
+.right-seek-icon {
+  position: absolute;
+  top: 2.03rem;
+  left: 2.49rem;
+  width: 3.77rem;
+  height: 2.43rem
+}
+
+.right-seek-icon {
+  left: 20.65rem
+}
+
+.player-child1,
+.player-child2 {
+  position: absolute;
+  top: 9.08rem;
+  left: .06rem;
+  background-color: var(--color-gainsboro-200);
+  width: 26.75rem;
+  height: .49rem
+}
+
+.player-child2 {
+  top: 9.06rem;
+  background-color: var(--color-darkslategray);
+  width: .06rem;
+  height: .5rem
+}
+
+.player1,
+.slider1 {
+  position: absolute;
+  left: 0
+}
+
+.slider1 {
+  height: 10.69%;
+  width: 4.85%;
+  top: 71.47%;
+  right: 95.15%;
+  bottom: 17.84%;
+  border-radius: 50%;
+  background-color: var(--color-dimgray)
+}
+
+.player1 {
+  top: 7.94rem;
+  width: 26.81rem;
+  height: 12.16rem
+}
+
+.music-player-child {
+  position: absolute;
+  top: 0;
+  left: 11.38rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  width: 13.63rem;
+  height: 3.44rem
+}
+
+.jazz1 {
+  position: absolute;
+  top: .50rem;
+  left: 14.2rem;
+  font-size: 2em;
+  font-family: var(--font-inter);
+  color: var(--color-indianred-200)
+}
+
+.music-player-item {
+  position: absolute;
+  top: 1.47rem;
+  left: 22.33rem;
+  width: .98rem;
+  height: .84rem
+}
+
+.music-player1 {
+  position: relative;
+  width: 26.81rem;
+  height: 20.09rem
+}
+
+.main-banner1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background-color: var(--color-indianred-200);
+  width: 90rem;
+  height: 91.38rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 29.22rem var(--padding-485xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins)
+}
+
+.frame-child1,
+.frame9 {
+  box-sizing: border-box;
+  width: 64.44rem
+
+  
+}
+
+.frame-child1 {
+  position: relative;
+  background-color: var(--color-indianred-200);
+  
+  height: 7.19rem
+}
+
+.frame9 {
+  position: absolute;
+  top: 1.94rem;
+  left: 12.75rem;
+  background: linear-gradient(#c85b55, #c85b55), linear-gradient(#c85b55, #c85b55), linear-gradient(#c85b55, #c85b55), linear-gradient(#c85b55, #c85b55), #c85b55;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.long-break3,
+.pomodoro3,
+.short-break3 {
+  text-decoration: none;
+  position: absolute;
+  top: 2.06rem;
+  left: 8.75rem;
+  font-weight: 700;
+}
+
+.long-break3,
+.short-break3 {
+  left: 37.19rem
+}
+
+.short-break3 {
+  left: 22.5rem
+}
+
+.rectangle-button,
+.task-section-child5 {
+  cursor: pointer;
+  padding: 0;
+  position: absolute
+}
+
+.rectangle-button {
+  border: 0;
+  background-color: var(--color-white);
+  top: 16.69rem;
+  left: 15.06rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+  width: 22.13rem;
+  height: 5.56rem
+}
+
+.task-section-child5 {
+  border: 3px dashed var(--color-lightgray);
+  background-color: var(--color-indianred-300);
+  top: 9rem;
+  left: .06rem;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 64.38rem;
+  height: 6.75rem
+}
+
+.frame-icon1 {
+  position: relative;
+  top: 0;
+  left: calc(50% - 6.625rem);;
+  width: 13.25rem;
+  height: 10.94rem;
+  overflow: hidden;
+  object-fit: cover
+}
+
+.computer-screen {
+  position: relative;
+  background-color: #c85b55;
+  width: 100%;
+  height: 91.38rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inter)
+}
+
+.slider-container {
+  position: absolute;
+  top: 9.08rem;
+  left: .06rem;
+  width: 26.75rem;
+  height: .49rem
+}
+
+.slider1 {
+  position: absolute;
+  top: 0rem;
+  left: .06rem;
+  background-color: var(--color-gainsboro-200);
+  width: 26.75rem;
+  height: .49rem
+}
+
+.slider-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: black; /* Change to your desired color */
+}
+
+.music-player-item{
+  z-index: 998;
+  position: absolute;
+  top: 1.7rem;
+  left: 12.4rem;
+
+  width: 3rem;
+  height: 3rem
+}
+
+#pause{
+  display: none;
+  top: 1.7rem;
+  left: 11.9rem;
+
+  width: 3rem;
+  height: 3rem
+}
+
+#play{
+  display: block;
+  top: 1.7rem;
+  left: 12.3rem;
+
+  width: 3rem;
+  height: 3rem
+}
+
+/* Add this to your existing CSS */
+
+.volume-slider {
+  -webkit-appearance: none; /* Override default appearance */
+  width: 100px; /* Length of the slider */
+  height: 3px; /* Thickness of the slider */
+  border-radius: 5px; /* Rounded corners */
+  background: #D3D3D3; /* Background of the slider */
+  outline: none; /* Removes the outline */
+  opacity: 0.7; /* Transparency (change as you like) */
+  -webkit-transition: .2s; /* Smooth transition */
+  transition: opacity .2s;
+  position: absolute;
+  top: -4.5em;
+  left: 22em;
+  
+}
+
+.volume-slider:hover {
+  opacity: 1; /* Full opacity on hover */
+}
+
+/* Style for the slider thumb (the draggable circle) */
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default appearance */
+  appearance: none;
+  width: 15px; /* Width of the thumb */
+  height: 15px; /* Height of the thumb */
+  border-radius: 50%; /* Make it circular */
+  background: #6a6a6a; /* Thumb color */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.volume-slider::-moz-range-thumb {
+  width: 15px; /* Width of the thumb */
+  height: 15px; /* Height of the thumb */
+  border: none; /* Remove default border */
+  border-radius: 50%; /* Make it circular */
+  background: #6a6a6a; /* Thumb color */
+  cursor: pointer; /* Cursor on hover */
+}
+
+#volume{
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: -4.3em;
+  left: 14em;
+ 
+}
+
+
